@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "target": "erick-christian-p",
+    "public": "docs",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
